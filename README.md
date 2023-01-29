@@ -25,6 +25,7 @@ let desc = document.querySelector(".side-bar .crayons-card .color-base-70");
 desc.innerText = "My Passion is to play cricket";
 
 ```
+![Output Img](./first.png)
 
 
 2. Website Name: [Apple](https://support.apple.com/en-in)
