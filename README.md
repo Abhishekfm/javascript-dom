@@ -8,7 +8,7 @@
 
 ### Sample Image
 
-![Sample One](./Pic1.png)
+![Sample One](./images/Pic1.png)
 
 ### Tasks
 
@@ -25,14 +25,14 @@ let desc = document.querySelector(".side-bar .crayons-card .color-base-70");
 desc.innerText = "My Passion is to play cricket";
 
 ```
-![Output Img](./first.png)
+![Output Img](./images/first.png)
 
 
 2. Website Name: [Apple](https://support.apple.com/en-in)
 
 ### Task
 
-![Store](./Picture_3.png)
+![Store](./images/Picture_3.png)
 
 ### Fetch all the product name and store in an array
 
@@ -56,7 +56,7 @@ arr;
 
 ### Sample Image
 
-![Sample One](./Pic4.png)
+![Sample One](./images/Pic4.png)
 
 ### Tasks
 
@@ -81,7 +81,7 @@ outer[0].appendChild(sec);
 
 ### Output
 
-![Output](./Pic5.png)
+![Output](./images/Pic5.png)
 
 4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
 
@@ -91,7 +91,7 @@ outer[0].appendChild(sec);
 
 ### Sample Image
 
-![Sample One](./Pic6.png)
+![Sample One](./images/Pic6.png)
 
 ### Tasks
 
@@ -104,7 +104,7 @@ contact.innerText = "+91 6366256689";
 
 ### Output
 
-![Output](./Pic7.png)
+![Output](./images/Pic7.png)
 
 5. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
 
@@ -114,7 +114,7 @@ contact.innerText = "+91 6366256689";
 
 ### Sample Image
 
-![Sample One](./Pic8.png)
+![Sample One](./images/Pic8.png)
 
 ### Tasks
 
@@ -129,7 +129,7 @@ btn.forEach(element => {
 
 ### Output
 
-![Output](./Pic9.png)
+![Output](./images/Pic9.png)
 
 6. Webiste Name: [Adidas](https://www.adidas.co.in/)
 
@@ -139,7 +139,7 @@ btn.forEach(element => {
 
 ### Sample Image
 
-![Sample One](./Pic10.png)
+![Sample One](./images/Pic10.png)
 
 ### Tasks
 
@@ -155,7 +155,7 @@ change.addEventListener("mouseover", (ele)=>{
 
 ### Output
 
-![Output](./Pic11.png)
+![Output](./images/Pic11.png)
 
 7. Webiste Name: [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
@@ -165,7 +165,7 @@ change.addEventListener("mouseover", (ele)=>{
 
 ### Sample Image
 
-![Sample One](./Pic12.png)
+![Sample One](./images/Pic12.png)
 
 ### Tasks
 
@@ -183,7 +183,7 @@ btn.addEventListener("mouseover", () => {
 ```
 ### Output
 
-![Output](./Pic13.png)
+![Output](./images/Pic13.png)
 
 8. Webiste Name: [Google](https://www.google.com/)
 
@@ -193,7 +193,7 @@ btn.addEventListener("mouseover", () => {
 
 ### Sample Image
 
-![Sample One](./Pic14.png)
+![Sample One](./images/Pic14.png)
 
 ### Tasks
 
@@ -215,7 +215,7 @@ for(let i = 0; i<all.length; i += 2){
 
 ### Output
 
-![Output](./Pic15.png)
+![Output](./images/Pic15.png)
 
 9. Webiste Name: [Code Wars](https://www.codewars.com/)
 
@@ -225,7 +225,7 @@ for(let i = 0; i<all.length; i += 2){
 
 ### Sample Image
 
-![Sample One](./Pic16.png)
+![Sample One](./images/Pic16.png)
 
 ### Tasks
 
@@ -241,7 +241,7 @@ ele.style.color = "#B1361E";
 
 ### Output
 
-![Output](./Pic17.png)
+![Output](./images/Pic17.png)
 
 10. Webiste Name: [Freecodecamp](https://www.freecodecamp.org/)
 
@@ -251,7 +251,7 @@ ele.style.color = "#B1361E";
 
 ### Sample Image
 
-![Sample One](./Pic18.png)
+![Sample One](./images/Pic18.png)
 
 ### Tasks
 
@@ -267,7 +267,7 @@ ele.addEventListener("mouseover",(val)=>{
 
 ### Output
 
-![Output](./Pic19.png)
+![Output](./images/Pic19.png)
 
 11. Webiste Name: [realme](https://www.realme.com/in/)
 
@@ -277,7 +277,7 @@ ele.addEventListener("mouseover",(val)=>{
 
 ### Sample Image
 
-![Sample One](./Pic20.png)
+![Sample One](./images/Pic20.png)
 
 ### Tasks
 
@@ -292,7 +292,7 @@ ele.style.backgroundImage = "url('https://ineuron.ai/images/ineuron-logo.png')";
 
 ### Output
 
-![Output](./Pic21.png)
+![Output](./images/Pic21.png)
 
 12. Webiste Name: [Github](https://github.com/)
 
@@ -302,7 +302,7 @@ ele.style.backgroundImage = "url('https://ineuron.ai/images/ineuron-logo.png')";
 
 ### Sample Image
 
-![Sample One](./Pic22.png)
+![Sample One](./images/Pic22.png)
 
 ### Tasks
 
@@ -317,7 +317,7 @@ ele.style.backgroundColor = 'Blue';
 
 ### Output
 
-![Output](./Pic23.png)
+![Output](./images/Pic23.png)
 
 13. Webiste Name: [Hackerrank](https://www.hackerrank.com/)
 
@@ -327,7 +327,7 @@ ele.style.backgroundColor = 'Blue';
 
 ### Sample Image
 
-![Sample One](./Pic24.png)
+![Sample One](./images/Pic24.png)
 
 ### Tasks
 
@@ -342,7 +342,7 @@ ele.innerText = "JSBOOTCAMP";
 
 ### Output
 
-![Output](./Pic25.png)
+![Output](./images/Pic25.png)
 
 14. Webiste Name: [Asus](https://www.asus.com/in/)
 
@@ -352,7 +352,7 @@ ele.innerText = "JSBOOTCAMP";
 
 ### Sample Image
 
-![Sample One](./Pic26.png)
+![Sample One](./images/Pic26.png)
 
 ### Tasks
 
@@ -366,7 +366,7 @@ ele.style.fontSize = "80px";
 
 ### Output
 
-![Output](./Pic27.png)
+![Output](./images/Pic27.png)
 
 15. Webiste Name: [Dell](https://www.dell.com/en-in/shop/deals/laptop-deals?gacd=10415953-9016-5761040-285981356-0&dgc=ST&gclid=Cj0KCQjwguGYBhDRARIsAHgRm4-XUDMhhVNyHXb3s1gY4ZBzORr_d9Se-buhJwy7asyUe7YdqEA11eEaAt6UEALw_wcB&gclsrc=aw.ds&nclid=BxjBlpBQsX6pjSHh-L8YYSU77EpfXRkG1AGMB5Wbeu386ykspfrPDnfx_DdFau20)
 
@@ -376,7 +376,7 @@ ele.style.fontSize = "80px";
 
 ### Sample Image
 
-![Sample One](./Pic28.png)
+![Sample One](./images/Pic28.png)
 
 ### Tasks
 
@@ -390,7 +390,7 @@ ele.style.textAlign = "right";
 
 ### Output
 
-![Output](./Pic29.png)
+![Output](./images/Pic29.png)
 
 16. Webiste Name: [Vercel](https://vercel.com/)
 
@@ -400,7 +400,7 @@ ele.style.textAlign = "right";
 
 ### Sample Image
 
-![Sample One](./Pic30.png)
+![Sample One](./images/Pic30.png)
 
 ### Tasks
 
@@ -414,7 +414,7 @@ ele.innerText = "Start With Scratch";
 
 ### Output
 
-![Output](./Pic31.png)
+![Output](./images/Pic31.png)
 
 17. Webiste Name: [Sony](https://www.sony.co.in/)
 
@@ -424,7 +424,7 @@ ele.innerText = "Start With Scratch";
 
 ### Sample Image
 
-![Sample One](./Pic33.png)
+![Sample One](./images/Pic33.png)
 
 ### Tasks
 
@@ -438,7 +438,7 @@ ele.innerHTML = Date();
 
 ### Output
 
-![Output](./Pic32.png)
+![Output](./images/Pic32.png)
 
 18. Webiste Name: [Philips](https://www.philips.co.in/)
 
@@ -448,7 +448,7 @@ ele.innerHTML = Date();
 
 ### Sample Image
 
-![Sample One](./Pic34.png)
+![Sample One](./images/Pic34.png)
 
 ### Tasks
 
@@ -465,7 +465,7 @@ ele.style.backgroundColor = 'Orange';
 
 ### Output
 
-![Output](./Pic35.png)
+![Output](./images/Pic35.png)
 
 19. Webiste Name: [Canon](https://in.canon/)
 
@@ -475,7 +475,7 @@ ele.style.backgroundColor = 'Orange';
 
 ### Sample Image
 
-![Sample One](./Pic36.png)
+![Sample One](./images/Pic36.png)
 
 ### Tasks
 
@@ -489,7 +489,7 @@ console.log(ele.src);
 
 ### Output
 
-![Output](./Pic37.png)
+![Output](./images/Pic37.png)
 
 20. Webiste Name: [Oppo](https://www.oppo.com/in/)
 
@@ -499,7 +499,7 @@ console.log(ele.src);
 
 ### Sample Image
 
-![Sample One](./Pic38.png)
+![Sample One](./images/Pic38.png)
 
 ### Tasks
 
@@ -515,4 +515,4 @@ ele.forEach((el)=>{
 
 ### Output
 
-![Output](./Pic39.png)
+![Output](./images/Pic39.png)
