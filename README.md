@@ -2,7 +2,7 @@
 
 1. Webiste Name: [Dev To](https://dev.to/)
 
-### Topics 
+### Topics
 
     - Query Selctory, Inner HTML
 
@@ -15,8 +15,17 @@
         Target the Top description div and change the DEV Community to <Your_Name> and description to your passion
 
 ### Output
+``` javascript
+let heading = document.querySelector(".side-bar .crayons-card .crayons-subtitle-2");
 
-![Output](./Pic2.png)
+heading.innerText = "Abhishek Singh";
+
+let desc = document.querySelector(".side-bar .crayons-card .color-base-70");
+
+desc.innerText = "My Passion is to play cricket";
+
+```
+
 
 2. Website Name: [Apple](https://support.apple.com/en-in)
 
@@ -25,6 +34,14 @@
 ![Store](./Picture_3.png)
 
 ### Fetch all the product name and store in an array
+
+``` javascript
+const arr = [];
+document.querySelectorAll(".row .as-imagegrid-item").forEach((ele)=>{
+    arr.push(ele.innerText.replace("\nSupport",""));
+});
+arr;
+```
 
 ### Output
 
@@ -44,6 +61,23 @@
 
      Add another FAQ 'My New FAQ' to the list
 
+``` javascript
+let outer = document.getElementsByClassName("accordion-homepage");
+
+let ele = document.createElement("h3");
+
+ele.innerText = "My New FAQ";
+
+let sec = document.createElement("section");
+
+sec.appendChild(ele);
+
+sec.classList.add("parent");
+
+outer[0].appendChild(sec);
+
+```
+
 ### Output
 
 ![Output](./Pic5.png)
@@ -61,6 +95,11 @@
 ### Tasks
 
       Change the contact number
+
+``` javascript
+let contact = document.querySelector(".one-tel-number.service-number");
+contact.innerText = "+91 6366256689";
+```
 
 ### Output
 
@@ -80,6 +119,13 @@
 
      Target the main div of card and change the Button text to Check out
 
+``` javascript
+let btn = document.querySelectorAll(".diwali-deals-product-sale-btn");
+btn.forEach(element => {
+    element.innerText = "Check Out";
+});
+```
+
 ### Output
 
 ![Output](./Pic9.png)
@@ -97,6 +143,14 @@
 ### Tasks
 
      Target the search box and on hover change thebackground color to red.
+
+``` javascript
+let change = document.querySelector(".searchinput___zXLAR");
+change.addEventListener("mouseover", (ele)=>{
+    ele.target.style.backgroundColor = "Red";
+});
+// The target property is a reference to the object (element) on which the event was dispatched.
+```
 
 ### Output
 
@@ -117,6 +171,15 @@
      To Search a topic in the MDN Search bar.
      First add a text to search in the search bar and then hit the submit search button to search the docs using DOM
 
+```javascript
+const input = document.getElementById("top-nav-search-input");
+const btn = document.querySelector(".search-button");
+
+btn.addEventListener("mouseover", () => {
+  input.value = "javascript event";
+  btn.click();
+});
+```
 ### Output
 
 ![Output](./Pic13.png)
@@ -134,6 +197,20 @@
 ### Tasks
 
      Remove alternate languages from the home page languages listed
+
+```javascript
+let ele = document.querySelector(".z4hgWe");
+
+let all = ele.childNodes;
+
+for(let i = 0; i<all.length; i += 3){
+    all[i].remove();
+}
+
+for(let i = 0; i<all.length; i += 2){
+    all[i].remove();
+}
+```
 
 ### Output
 
@@ -153,6 +230,14 @@
 
     Change the font family of the text to monospace and text color to the logo’s background color.
 
+```javascript
+let ele = document.querySelector(".display-heading-1");
+
+ele.style.fontFamily = "monospace";
+
+ele.style.color = "#B1361E";
+```
+
 ### Output
 
 ![Output](./Pic17.png)
@@ -170,6 +255,14 @@
 ### Tasks
 
     Target the button and change background colour on mouseover
+
+```javascript
+let ele = document.querySelector(".btn-cta-big .login-btn-text");
+
+ele.addEventListener("mouseover",(val)=>{
+    val.target.style.backgroundColor = 'Red';
+});
+```
 
 ### Output
 
@@ -189,6 +282,13 @@
 
     change the realme logo to ineuron logo
 
+```javascript
+let ele = document.querySelector(".icon.icon-logo.in");
+
+ele.style.backgroundImage = "url('https://ineuron.ai/images/ineuron-logo.png')";
+
+```
+
 ### Output
 
 ![Output](./Pic21.png)
@@ -206,6 +306,13 @@
 ### Tasks
 
      change the background colour of the button to blue.
+
+```javascript
+let ele = document.querySelector(".js-repos-container .btn.btn-sm.btn-primary");
+
+ele.style.backgroundColor = 'Blue';
+
+```
 
 ### Output
 
@@ -225,6 +332,13 @@
 
 Target the top description and change “Matching developers with great companies” to ‘JSBOOTCAMP“.
 
+```javascript
+let ele = document.querySelector(".fl-heading-text");
+
+ele.innerText = "JSBOOTCAMP";
+
+```
+
 ### Output
 
 ![Output](./Pic25.png)
@@ -242,6 +356,12 @@ Target the top description and change “Matching developers with great companie
 ### Tasks
 
        change the fontsize of “Hot Deals” to 80px
+
+```javascript
+let ele = document.querySelector(".HotDealsAll__Heading__2fIbe");
+ele.style.fontSize = "80px";
+
+```
 
 ### Output
 
@@ -261,6 +381,12 @@ Target the top description and change “Matching developers with great companie
 
        Convert the text “G15 Gaming Laptop” from left to right
 
+```javascript
+let ele = document.querySelector(".ps-image.ps-product-image a");
+
+ele.style.textAlign = "right";
+```
+
 ### Output
 
 ![Output](./Pic29.png)
@@ -278,6 +404,12 @@ Target the top description and change “Matching developers with great companie
 ### Tasks
 
       change the heading “Start with the developer” to “Start with Scratch”
+
+```javascript
+let ele = document.querySelector(".section-title_title__VEDfK");
+
+ele.innerText = "Start With Scratch";
+```
 
 ### Output
 
@@ -297,6 +429,12 @@ Target the top description and change “Matching developers with great companie
 
      change the button text To current Date.
 
+```javascript
+let ele = document.querySelector(".btn-container");
+
+ele.innerHTML = Date();
+```
+
 ### Output
 
 ![Output](./Pic32.png)
@@ -314,6 +452,15 @@ Target the top description and change “Matching developers with great companie
 ### Tasks
 
     change the background colour blue to orange
+
+```javascript
+let ele = document.querySelector(".p-f03-footer-container");
+
+ele.style.background = "none";
+
+ele.style.backgroundColor = 'Orange';
+
+```
 
 ### Output
 
@@ -333,6 +480,12 @@ Target the top description and change “Matching developers with great companie
 
     extract the canon logo
 
+```javascript
+let ele = document.querySelector(".logo");
+
+console.log(ele.src);
+```
+
 ### Output
 
 ![Output](./Pic37.png)
@@ -350,6 +503,14 @@ Target the top description and change “Matching developers with great companie
 ### Tasks
 
       Change the description colour black to orange
+
+```javascript
+let ele = document.querySelectorAll(".desc");
+
+ele.forEach((el)=>{
+    el.style.color = 'Orange';
+});
+```
 
 ### Output
 
